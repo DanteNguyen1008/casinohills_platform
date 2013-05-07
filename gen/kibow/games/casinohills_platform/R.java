@@ -10,6 +10,9 @@ package kibow.games.casinohills_platform;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int history_color=0x7f040000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -17,25 +20,90 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int android1=0x7f020000;
+        public static final int android2=0x7f020001;
+        public static final int btn_back=0x7f020002;
+        public static final int btn_login=0x7f020003;
+        public static final int btn_register=0x7f020004;
+        public static final int btn_title=0x7f020005;
+        public static final int btnfacebooklogin=0x7f020006;
+        public static final int button_fb_login=0x7f020007;
+        public static final int button_play_press=0x7f020008;
+        public static final int click_button=0x7f020009;
+        public static final int gradient_bg=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int press_button=0x7f02000c;
+        public static final int rounded_btn_back=0x7f02000d;
+        public static final int rounded_btn_sign_in=0x7f02000e;
+        public static final int rounded_btn_sign_in_press=0x7f02000f;
+        public static final int rounded_edit_password=0x7f020010;
+        public static final int sicbo_logo=0x7f020011;
+        public static final int sicbologon=0x7f020012;
+        public static final int wood_bg=0x7f020013;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int ScrollView11=0x7f09001d;
+        public static final int action_settings=0x7f090021;
+        public static final int btn_about_bitcoin=0x7f090009;
+        public static final int btn_about_game=0x7f090008;
+        public static final int btn_back=0x7f090002;
+        public static final int btn_back_webview=0x7f090020;
+        public static final int btn_bitcoin=0x7f090010;
+        public static final int btn_change_password=0x7f09000f;
+        public static final int btn_load_history=0x7f09001c;
+        public static final int btn_ok=0x7f090006;
+        public static final int btn_register=0x7f090014;
+        public static final int btn_reset=0x7f090018;
+        public static final int btn_sent_deposit=0x7f090011;
+        public static final int btn_sign_in=0x7f09000c;
+        public static final int btn_tutorial=0x7f090007;
+        public static final int checkBox1=0x7f090015;
+        public static final int edt_confirm_password=0x7f090005;
+        public static final int edt_current_password=0x7f090003;
+        public static final int edt_email=0x7f090012;
+        public static final int edt_email_reset=0x7f090017;
+        public static final int edt_full_name=0x7f090013;
+        public static final int edt_new_password=0x7f090004;
+        public static final int edt_password=0x7f09000b;
+        public static final int edt_username=0x7f09000a;
+        public static final int menu_help=0x7f09001a;
+        public static final int menu_profile=0x7f090019;
+        public static final int rela1=0x7f090001;
+        public static final int rela_history=0x7f09001b;
+        public static final int tbl_history=0x7f09001e;
+        public static final int txt_active_account=0x7f090000;
+        public static final int txt_create_account=0x7f09000d;
+        public static final int txt_forgot_password=0x7f09000e;
+        public static final int txt_link_policy=0x7f090016;
+        public static final int webbiew_help=0x7f09001f;
     }
     public static final class layout {
-        public static final int activity_login=0x7f030000;
+        public static final int activity_active_account=0x7f030000;
+        public static final int activity_change_password=0x7f030001;
+        public static final int activity_help=0x7f030002;
+        public static final int activity_login=0x7f030003;
+        public static final int activity_login_screen=0x7f030004;
+        public static final int activity_profile=0x7f030005;
+        public static final int activity_register_screen=0x7f030006;
+        public static final int activity_reset_password=0x7f030007;
+        public static final int activity_sic_bo_game=0x7f030008;
+        public static final int activity_splash_screen=0x7f030009;
+        public static final int activity_splash_screen_acivity=0x7f03000a;
+        public static final int menu_option=0x7f03000b;
+        public static final int table_history=0x7f03000c;
+        public static final int webview_help=0x7f03000d;
     }
     public static final class menu {
-        public static final int login=0x7f070000;
+        public static final int login=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
+        public static final int action_settings=0x7f060001;
+        public static final int app_name=0x7f060000;
+        public static final int hello_world=0x7f060002;
     }
     public static final class style {
         /** 
@@ -59,10 +127,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }
